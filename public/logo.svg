@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path 
+    d="M75 25C75 15 65 5 50 5C35 5 25 15 25 25C25 35 35 45 50 45C65 45 75 55 75 65C75 75 65 85 50 85C35 85 25 75 25 65"
+    stroke="#000"
+    stroke-width="10"
+    stroke-linecap="round"
+    fill="none"
+  />
+</svg>
