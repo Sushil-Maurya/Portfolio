@@ -87,10 +87,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  {
-    name: "Zustand",
-    icon: zustand,
-  },
+  // {
+  //   name: "Zustand",
+  //   icon: zustand,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -103,14 +103,14 @@ const technologies = [
     name: "Material UI",
     icon: mui,
   },
-  {
-    name: "Ant Design",
-    icon: antdesign,
-  },
-  {
-    name: "Framer Motion",
-    icon: framer,
-  },
+  // {
+  //   name: "Ant Design",
+  //   icon: antdesign,
+  // },
+  // {
+  //   name: "Framer Motion",
+  //   icon: framer,
+  // },
   {
     name: "git",
     icon: git,
