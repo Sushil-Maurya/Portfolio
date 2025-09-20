@@ -27,6 +27,10 @@ import BuopsoLogo from "./Buopso.png";
 import vitest from "./tech/vitest.png";
 import rtl from "./tech/rtl.png";
 import cms from "./cms.png";
+import mui from "./tech/mui.png";
+import antdesign from "./tech/ant.png";
+import framer from "./tech/framer.png";
+import zustand from "./tech/zustand.png";
 
 export {
   backend,
@@ -58,4 +62,8 @@ export {
   vitest,
   rtl,
   cms,
+  mui,
+  antdesign,
+  framer,
+  zustand,
 };

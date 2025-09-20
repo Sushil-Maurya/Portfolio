@@ -20,6 +20,11 @@ import {
   vitest,
   rtl,
   cms,
+  tailwind,
+  mui,
+  antdesign,
+  framer,
+  zustand,
 } from "../assets";
 
 export const navLinks = [
@@ -38,7 +43,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    link: "https://drive.google.com/file/d/1KoBEQ4sMORWu0Xjw11oxC8_7IYP6pNrJ/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1ZwD6qzrNyIOy-kCk2CcgpYcVH3q6RPJG/view?usp=sharing",
   },
 ];
 
@@ -83,8 +88,28 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "Zustand",
+    icon: zustand,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Material UI",
+    icon: mui,
+  },
+  {
+    name: "Ant Design",
+    icon: antdesign,
+  },
+  {
+    name: "Framer Motion",
+    icon: framer,
   },
   {
     name: "git",
@@ -155,6 +180,10 @@ const projects = [
       {
         name: "redux",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "orange-text-gradient",
       },
     ],
     image: BuopsoLogo,
