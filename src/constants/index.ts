@@ -25,6 +25,7 @@ import {
   antdesign,
   framer,
   zustand,
+  NextJS,
 } from "../assets";
 
 export const navLinks = [
@@ -43,7 +44,7 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
-    link: "https://drive.google.com/file/d/1ZwD6qzrNyIOy-kCk2CcgpYcVH3q6RPJG/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1baKyIXHOQ12eUaWlCIPttLUt8kslLv4W/view?usp=sharing",
   },
 ];
 
@@ -84,13 +85,17 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: NextJS,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
-  // {
-  //   name: "Zustand",
-  //   icon: zustand,
-  // },
+  {
+    name: "Zustand",
+    icon: zustand,
+  },
   {
     name: "Node JS",
     icon: nodejs,
@@ -103,14 +108,14 @@ const technologies = [
     name: "Material UI",
     icon: mui,
   },
-  // {
-  //   name: "Ant Design",
-  //   icon: antdesign,
-  // },
-  // {
-  //   name: "Framer Motion",
-  //   icon: framer,
-  // },
+  {
+    name: "Ant Design",
+    icon: antdesign,
+  },
+  {
+    name: "Framer Motion",
+    icon: framer,
+  },
   {
     name: "git",
     icon: git,
@@ -124,7 +129,7 @@ const technologies = [
     icon: vitest,
   },
   {
-    name: "rtl",
+    name: "React Testing Library",
     icon: rtl,
   },
 ];

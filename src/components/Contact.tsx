@@ -31,7 +31,6 @@ const ContactUs = () => {
     });
     setAlert({});
   };
-  console.log({ SENDER, RECEIVER, TEMPLATE_ID, SERVICE_ID, PUBLIC_KEY });
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     const { name, email, message } = form;
@@ -46,7 +45,6 @@ const ContactUs = () => {
         message: `Please enter your ${alertMessage}!`,
       });
     setLoading(true);
-    console.log(name, email, message);
     emailjs
       .send(
         SERVICE_ID,

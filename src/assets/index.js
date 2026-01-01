@@ -31,6 +31,8 @@ import mui from "./tech/mui.png";
 import antdesign from "./tech/ant.png";
 import framer from "./tech/framer.png";
 import zustand from "./tech/zustand.png";
+import NextJS from "./tech/NextJS.png";
+
 
 export {
   backend,
@@ -66,4 +68,5 @@ export {
   antdesign,
   framer,
   zustand,
+  NextJS,
 };

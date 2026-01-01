@@ -10,7 +10,7 @@ import {
 
 import CanvasLoader from "../Loader";
 
-const Ball = (props) => {
+export const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
   return (
